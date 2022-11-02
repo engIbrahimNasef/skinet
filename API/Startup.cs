@@ -52,7 +52,7 @@ namespace API
 
             app.UseRouting();
             app.UseStaticFiles();
-            
+
             app.UseSwaggerDocumnetation();
             app.UseCors("CorsPolicy");
 
